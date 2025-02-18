@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support Our Discord Community</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>✨ Support Our Discord Community ✨</h1>
+      <p>
+        Help us keep our server thriving! Your support means the world to us. 🌟
+      </p>
+    </header>
+
+    <main class="main-content">
+      <section class="donation-section">
+        <h2>Make a Donation</h2>
+        <p>
+          Your contributions help us cover server costs, boost our server, and
+          enhance our community experience.
+        </p>
+        <form>
+          <label for="amount">Enter Donation Amount (₹):</label>
+          <input
+            type="number"
+            id="amount"
+            name="amount"
+            min="1"
+            placeholder="e.g., 100"
+            required
+          />
+          <button
+            type="button"
+            class="donate-button"
+            onclick="makeUPIPayment()"
+          >
+            Donate Now 💖
+          </button>
+        </form>
+      </section>
+
+      <section class="qr-section">
+        <h3>Scan to Donate</h3>
+        <img src="upi_qr_code.png" alt="UPI QR Code" class="qr-code" />
+        <p>UPI ID: <strong>debjit4biz@okhdfcbank</strong></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        💬 Join us on Discord:
+        <a href="https://discord.gg/F3zqcHkFSu" target="_blank">Click Here</a>
+      </p>
+      <p>&copy; 2024 The Herd. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
