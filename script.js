@@ -4,6 +4,6 @@ function makeUPIPayment() {
     alert("Please enter a valid amount!");
     return;
   }
-  const upiLink = `upi://pay?pa=debjit4biz@okhdfcbank&pn=DEBJIT%20SAREN&tn=Donation%20to%20THE%20HERD%20Discord%20server&am=${amount}&cu=INR`;
+  const upiLink = `upi://pay?pa=debjit4biz@okhdfcbank&pn=DEBJIT%20SAREN&tn=Donation%20to%20the%20jobless%20guy&am=${amount}&cu=INR`;
   window.location.href = upiLink;
 }
